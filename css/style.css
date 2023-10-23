@@ -1,17 +1,45 @@
-@import url("https://use.typekit.net/yej6ymi.css");
 html {
-font-size: 16px;
+    font-size: 16px;
 }
 
 body {
     background-color: #F7F3DF;
+    max-width: 71rem;
     font-family: puffin-display-soft, sans-serif;
+    font-style: normal; color: #032973;
+    margin: 3rem auto;
+
+}
+h1 {
+    font-family: puffin-display-soft, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: normal; color: #D41335;
+    text-align: center;
+}
+
+h2,
+footer {
+    font-family: puffin-display-soft, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal; color:#032973;
+}
+p {
+    font-family: puffin-display-soft, sans-serif;
+    font-size: 1rem;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; color:#032973;
+}
+a{
+    color: #032973;
+    text-decoration: none;
 }
 
 header {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav {
@@ -23,5 +51,22 @@ main {
 }
 
 footer {
+    background-color: #FCACC1;
+    display: flex;
+    width: 80rem;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#splashlogo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20%;
+    transition: transform .2s;
+}
+
+#splashlogo:hover{
+    transform: scale(1.1);
 }
