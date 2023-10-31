@@ -172,3 +172,9 @@ footer {
 .instagram{
     grid-area:
 }
+
+
+#crafts img{
+    margin-top: 8px;
+    vertical-align: bottom;
+}
