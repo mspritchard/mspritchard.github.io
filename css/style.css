@@ -169,12 +169,19 @@ footer {
     max-width: 41rem;
     row-gap: 1.5rem;
 }
-.instagram{
-    grid-area:
-}
+
+
 
 
 #crafts img{
     margin-top: 8px;
     vertical-align: bottom;
+}
+
+.logocontact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 50%;
 }
