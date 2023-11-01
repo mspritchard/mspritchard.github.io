@@ -89,6 +89,24 @@ footer {
     text-align: center;
     grid-column: 1/13;
 }
+
+#crafts {
+    width: 100%; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+#crafts img {
+    max-width: 100%;
+    max-height: 300px;
+    margin: .5rem; 
+    align-content: center;
+}
+
 .title{
     text-align: center;
     grid-column: 1/13;
@@ -119,23 +137,27 @@ footer {
 }
 
 .row{
+    width: 100%;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 1.5rem;
+    margin-left: 3rem;
+    padding-bottom: 5rem;
 }
 .column{
     -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    width: 30%; 
+    padding: .5rem; 
+
 }
 .column img{
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
+
 @media screen and (max-width: 800px){
     .column{
         -ms-flex: 50%;
@@ -164,10 +186,10 @@ footer {
     align-self: center;
 }
 .contact{
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     max-width: 41rem;
-    row-gap: 1.5rem;
+    row-gap: 1.5rem;*/
 }
 
 
@@ -182,6 +204,17 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    padding: 5rem;
     width: 50%;
+}
+
+.instagram {
+    width: 100%; 
+   display: flex;
+   flex-direction: row;
+
+}
+
+.instagram h2 {
+    padding-left: 1rem;
 }
