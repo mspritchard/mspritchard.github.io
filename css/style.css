@@ -132,8 +132,8 @@ footer {
     align-self: center;
 }
 
-#book:hover{
-    border: 3px #FCACC1;
+.book:hover{
+    filter: opacity(70%);
 }
 
 .row{
