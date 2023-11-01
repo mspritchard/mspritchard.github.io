@@ -55,7 +55,7 @@ main {
 }
 
 section {
-    margin: 5rem auto;
+    margin: 3rem auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 1.5rem;
@@ -174,14 +174,31 @@ footer {
 }
 
 .container{
-    grid-template-columns: 1fr 1fr;
-    max-width: 71rem;
+    grid-template-columns: 24rem 1fr;
+    max-width: 60rem;
+    grid-column-gap: 1.5rem;
 }
 .container img{
     grid-column: 1/2;
+    max-width: 75%;
+    align-content: center;
+    justify-self: center;
 }
-.about{
+.abouttext{
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+}
+
+.about1{
     grid-column: 2/2;
+    grid-row: 1/2;
+    text-align: left;
+    align-self: center;
+}
+
+.about1{
+    grid-column: 2/2;
+    grid-row: 2/2;
     text-align: left;
     align-self: center;
 }
