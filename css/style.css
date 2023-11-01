@@ -98,6 +98,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 5rem;
+    background-image: url("/img/craft_background.png");
 }
 
 #crafts img {
