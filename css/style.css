@@ -235,3 +235,28 @@ footer {
 .instagram h2 {
     padding-left: 1rem;
 }
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 95%;
+        padding: 1%;
+    }
+
+    header nav {
+        text-align: center;
+    }
+
+    nav img {
+        width: 25%; 
+
+    }
+
+    section {
+        display: block;
+    }
+    
+    img{
+        max-width: 250px;
+    }
+    }
+
